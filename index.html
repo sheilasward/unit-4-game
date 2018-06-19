@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector's Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">   
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Crystals Collector!</h1>
+            <div class="instructions">
+                <ul>
+                    <li>You will be given a random number at the start of the game.</li>
+                    <li>There are four crystals below.  By clicking on a crystal, you will add a specific
+                        amount of points to your total score.
+                    </li>
+                    <li>You win the game by matching your total score to the random number.  You lose the
+                         game if your total score goes above the random number.
+                    </li>
+                    <li>The value of each crystal is hidden from you until you click on it.</li>
+                    <li>Each time when the game starts, the game will change the value of each crystal.</li>
+                </ul>
+            </div>
+            <br>
+        </div>
+        <div class="clearfix">
+            <div id="randomNbr">
+                <h3>Your Random Number is:<br>&nbsp;</h3>
+            </div>
+            <div id="win-lose">
+                <h2>Congratulations!</h2>
+                <h2>You won!!</h2>
+            </div>
+            <div id="score">
+                <h3>Wins: &emsp; 0</h3>
+                <h3>Losses: &emsp; 0 </h3>
+            </div>
+        </div>
+
+        <div class="imgGroup clearfix">
+            <img id="image1" src="assets/images/diamond-small.jpg">
+            <img id="image2" src="assets/images/heart-small.jpg">
+            <img id="image3" src="assets/images/spade-small.jpg">
+            <img id="image4" src="assets/images/club-small.jpg">
+        </div>
+
+        <div class="sum">
+            <h2>Your Current Sum is: 0 &emsp; Keep playing!</h2>
+        </div>
+
+        <div class="footer">
+            <h2>Copyright © 2018</h2>
+        </div>
+
+    </div>
+
+</body>
+</html>

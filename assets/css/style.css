@@ -1,0 +1,163 @@
+
+.container {
+    background-image: url("../images/PillowBlue.png");
+    background-repeat: repeat;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.title, .footer {
+    background: #2D3047;
+    color: #E5D882;
+    width:100%;
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.instructions {
+    background: #A799B7;
+    color: #2D3047;
+    font-size: 18px;
+    text-align: left;
+    margin: 0 8% 20px 8%;
+    padding: 20px;
+}
+
+#randomNbr {
+    background: #E5D882;
+    color: #2D3047;
+    margin: 30px 4% 4% 40px;
+    width: 20%;
+    min-height: 100px;
+    padding: 5px 20px;
+    border: 2px solid #2D3047;
+    float: left;
+}
+
+#win-lose {
+    background: #048A81;
+    color: white;
+    text-align: center;
+    margin: 30px 4% 30px 40px;
+    width: 20%;
+    height: 100px;
+    padding: 5px 20px;
+    border: 2px solid #2D3047;
+    float: left;
+    visibility: visible;
+}
+
+#score {
+    background: #E5D882;
+    color: #2D3047;
+    margin: 30px 40px 30px 40px;
+    width: 20%;
+    min-height: 100px;
+    padding: 5px 20px;
+    border: 2px solid #2D3047;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.imgGroup {
+    margin-left: 30%;
+    background: #8CC0C8;
+    height: 100px;
+    width: 370px;
+    border: 2px solid white;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+}
+
+#image1 {
+    top: 10px;
+    left: 10px;
+
+}
+
+#image2 {
+    top: 10px;
+    left: 100px;
+}
+
+#image3 {
+    top: 10px;
+    left: 190px;
+}
+
+#image4 {
+    top: 10px;
+    left: 280px;
+}
+
+.sum {
+    background: #A799B7;
+    border: 5px solid #2D3047;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-bottom: 60px;
+    width: 50%;
+    padding-left: 20px; 
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+@media (max-width: 1553px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 945px) {
+    #randomNbr {
+        margin: 30px 1% 30px 5px;
+    }
+    #win-lose {
+        margin: 30px 1% 30px 5px;
+        min-width: 160px;
+    }
+    #score {
+        margin: 30px 5px 30px 5px;
+    }
+    .imgGroup {
+        margin: 30px 0 30px 5px;
+    }
+    .sum {
+        margin-left: 5px;
+        width: 75%;
+    }
+}
+
+@media (max-width: 593px) {
+    #randomNbr {
+        margin: 20px 5px 5px 5px;
+        width: 90%;
+    }
+    #win-lose {
+        margin: 5px;
+        width: 90%;
+    }
+    #score {
+        margin: 5px;
+        width: 90%;
+    }
+    .sum {
+        margin-left: 5px;
+        width: 90%;
+    }
+}
