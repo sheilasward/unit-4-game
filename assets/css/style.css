@@ -1,9 +1,16 @@
-
+body {
+    display: block;
+    margin: 0;
+}
 .container {
     background-image: url("../images/PillowBlue.png");
     background-repeat: repeat;
     width: 60%;
     margin: 0 auto;
+}
+
+div {
+    display: block;
 }
 
 .title, .footer {
@@ -15,6 +22,49 @@
 
 h1 {
     padding: 10px;
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;  
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    line-height: 22px;
 }
 
 .instructions {
@@ -35,6 +85,7 @@ h1 {
     padding: 5px 20px;
     border: 2px solid #2D3047;
     float: left;
+    text-align: center;
 }
 
 #win-lose {
@@ -76,33 +127,6 @@ h1 {
     position: relative;
 }
 
-img {
-    position: absolute;
-    height: 80px;
-    width: 80px;
-}
-
-#image1 {
-    top: 10px;
-    left: 10px;
-
-}
-
-#image2 {
-    top: 10px;
-    left: 100px;
-}
-
-#image3 {
-    top: 10px;
-    left: 190px;
-}
-
-#image4 {
-    top: 10px;
-    left: 280px;
-}
-
 .sum {
     background: #A799B7;
     border: 5px solid #2D3047;
@@ -113,8 +137,22 @@ img {
     padding-left: 20px; 
 }
 
+.btnPlay {
+    background: #2D3047;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E5D882;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
 .footer {
-    padding: 20px 0;
+    padding: 10px 0;
+}
+
+.newClass {
+    visibility: hidden;
 }
 
 @media (max-width: 1553px) {
